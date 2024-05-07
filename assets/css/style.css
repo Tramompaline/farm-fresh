@@ -19,6 +19,10 @@ body {
 /* Header */
 header {
     background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px goldenrod;
 }
 
 h1 {
