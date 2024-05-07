@@ -89,11 +89,21 @@ main {
 /* Footer */
 footer {
     background-color: black;
-}
+   }
 
-social networks i {
-
-}
+   #social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: goldenrod;
+  }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
