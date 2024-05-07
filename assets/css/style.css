@@ -32,6 +32,7 @@ header a {
     color: inherit;
 }
 
+
 h1 {
     font-family: 'Dancing Script', sans-serif;
     color: goldenrod;
@@ -69,13 +70,12 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
+   display: none; 
 }
 
 .nav-toggle-label {
     font-size: 2rem;
 }
-
 
 /* Main Content */
 main {
@@ -88,6 +88,10 @@ main {
 /* Footer */
 footer {
     background-color: black;
+}
+
+social networks i {
+
 }
 
 /* Media query: tablets and larger (768px and up) */
