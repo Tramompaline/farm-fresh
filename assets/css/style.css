@@ -124,3 +124,10 @@ footer {
         margin-top: 80px;
     }
 }
+
+/* Media query: laptops and destops (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: solid 1px goldenrod; 
+    }
+}
