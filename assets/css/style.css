@@ -60,16 +60,67 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 3px 3px goldenrod;
     display: none;
+    top: 100%;
 }
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 
 /* Main Content */
 main {
     background-color: white;
     /* Force main element to take up surplus space and push footer down */
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 /* Footer */
 footer {
     background-color: black;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px){
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 0.8rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height:80px ;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Content */
+    main {
+        /* Push main content down below larger header */
+        margin-top: 80px;
+    }
 }
