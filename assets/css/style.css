@@ -25,9 +25,28 @@ header {
     box-shadow: 0 3px 3px goldenrod;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Dancing Script', sans-serif;
     color: goldenrod;
+}
+
+#menu {
+    font-size: 95%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 3px;
+}
+
+.active {
+    border-bottom: 1px solid goldenrod;
 }
 
 /* Main */
