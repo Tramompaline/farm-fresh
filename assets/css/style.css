@@ -81,10 +81,16 @@ nav {
 
 /* Main Content */
 main {
-    background-color: white;
     /* Force main element to take up surplus space and push footer down */
     flex: 1 0 auto;
     margin-top: 50px;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-wendywei-1656663.jpg) no-repeat center center / cover;
 }
 
 /* Footer */
