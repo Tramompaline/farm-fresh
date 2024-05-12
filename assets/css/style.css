@@ -30,7 +30,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: rgb(245, 239, 239);
 }
 
 
@@ -64,6 +64,11 @@ nav {
     box-shadow: 0 3px 3px goldenrod;
     display: none;
     top: 100%;
+}
+
+#nav a {
+    color: goldenrod;
+    text-decoration: none;
 }
 
 /* Nav toggle */
