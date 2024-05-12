@@ -1,7 +1,6 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-
 /* Asterisk wildcard selector to override default syles given by the browser */
 * {
     padding: 0;
@@ -88,14 +87,29 @@ nav {
 main {
     /* Force main element to take up surplus space and push footer down */
     flex: 1 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
 #hero {
-    height: 100vh;
+    height: 900px;
     width: 100%;
     background: url(../images/pexels-wendywei-1656663.jpg) no-repeat center center / cover;
+    position: relative;
+}
+
+#cover-text {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    padding: 20px;
+    margin: 20px;
+}
+
+#cover-text > h2 {
+    color: white;
+    margin-top: 20px;
 }
 
 /* Footer */
