@@ -105,6 +105,7 @@ main {
     position: absolute;
     padding: 20px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 #cover-text > h2 {
