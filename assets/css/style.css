@@ -11,8 +11,6 @@
 /* General Styles */
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Header */
@@ -87,22 +85,20 @@ nav {
 main {
     /* Force main element to take up surplus space and push footer down */
     flex: 1 0 auto;
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
 
 /* Hero Section */
 #hero {
-    height: 900px;
+    height: fit-content;
     width: 100%;
     background: url(../images/pexels-wendywei-1656663.jpg) no-repeat center center / cover;
-    position: relative;
+    margin-top: 40px;
 }
 
 #cover-text {
     background: rgba(0, 0, 0, 0.7);
-    position: absolute;
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
@@ -163,7 +159,15 @@ footer {
     /* Main Content */
     main {
         /* Push main content down below larger header */
-        margin-top: 80px;
+        margin-top: 0px;
+    }
+
+    #hero {
+        height: 100vh;
+    }
+
+    #cover-text {
+        margin-top: 60px;
     }
 }
 
@@ -171,5 +175,15 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: solid 1px goldenrod; 
+    }
+
+    /* Main Content */
+    main {
+        flex: 1 0 auto;
+        height: 100vh;
+    }
+
+    #hero {
+        height: 100vh;
     }
 }
