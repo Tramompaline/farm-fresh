@@ -109,6 +109,13 @@ main {
     margin-top: 20px;
 }
 
+#join-us {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
 /* Footer */
 footer {
     background-color: black;
