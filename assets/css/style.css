@@ -114,6 +114,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    color: white
 }
 
 /* Testimonials */
@@ -122,6 +123,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 #testimonials-2 {
@@ -129,6 +131,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 #testimonials-3 {
@@ -136,6 +139,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 #testimonials-4 {
@@ -143,6 +147,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 #testimonials-5 {
@@ -150,6 +155,7 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 /* Footer */
@@ -214,7 +220,7 @@ footer {
     }
 
     #testimonials {
-        height: 100vh;
+        margin-top: 60px;
     }
 }
 
