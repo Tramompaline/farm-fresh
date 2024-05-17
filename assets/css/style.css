@@ -126,6 +126,17 @@ main {
     color: white
 }
 
+/* Form */
+#signup-form {
+    color: white;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 150%;
+    margin: 200px 200px;
+    text-align: center;
+  }
+
 /* Footer */
 footer {
     background-color: black;
