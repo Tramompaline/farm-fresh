@@ -102,6 +102,9 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    max-width: 800px;
+    justify-content: center;
+    align-content: center;
 }
 
 #cover-text > h2 {
@@ -114,20 +117,43 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
-    color: white
+    color: white;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Testimonials */
 #testimonials {
+    background-image: url("../images/pexels-wendywei-1656663.jpg");
+    background-size: cover;
+    width: 100%;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonials-content {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
     color: white;
     font-size: 120%;
-}
+    max-width: 800px; 
+    width: 100%;
+    box-sizing: border-box
+}   
 
 /* Form */
+#signup {
+    background-image: url("../images/pexels-wendywei-1656663.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1;
+}
+
 #signup-form {
     color: white;
     background-color: rgba(60, 60, 60, 0.6);
@@ -196,15 +222,22 @@ footer {
     }
 
     #hero {
+        background-image: url("../images/pexels-wendywei-1656663.jpg");
+        background-size: cover;
+        width: 100%;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #cover-text {
-        margin-top: 60px;
+        margin-top: 90px;
+        width: 100%;
+        max-width: 75%;
     }
-
-    #testimonials {
-        margin-top: 60px;
+    
     }
 
     #testimonials p {
@@ -226,21 +259,61 @@ footer {
         border-bottom: solid 1px goldenrod; 
     }
 
-    /* Main Content */
-    main {
-        flex: 1 0 auto;
-        height: 100vh;
-    }
-
     #hero {
+        background-image: url("../images/pexels-wendywei-1656663.jpg");
+        background-size: cover;
+        width: 100%;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    
+    #cover-text {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        margin: 20px;
+        margin-top: 40px;
+        border-radius: 20px;
+        color: white;
+        font-size: 140%;
+        max-width: 800px; 
+        width: 100%;
+        box-sizing: border-box
+    }   
 
-    #signup-form {
-        margin-left: 25%;
-        margin-top: 200px;
-        max-width: 600px;
+    #join-us {
+        width: 100%;
+        max-width: 800px;
+        font-size: 140%;
     }
+    
+
+/* Testimonials */
+#testimonials {
+    background-image: url("../images/pexels-wendywei-1656663.jpg");
+    background-size: cover;
+    width: 100%;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonials-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 120%;
+    max-width: 800px; 
+    width: 100%;
+    box-sizing: border-box
+}   
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -248,4 +321,34 @@ footer {
         margin-left: 30%;
         margin-top: 250px;
     }
+
+    #cover-text {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        margin: 20px;
+        margin-top: 40px;
+        border-radius: 20px;
+        color: white;
+        font-size: 170%;
+        max-width: 75%; 
+        width: 100%;
+        box-sizing: border-box
 }
+
+     #join-us {
+        width: 100%;
+        max-width: 75%;
+        font-size: 170%;
+}
+
+#testimonials-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 170%;
+    max-width: 1300px; 
+    width: 100%;
+}   
