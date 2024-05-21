@@ -1,39 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Farm Fresh Website
+Welcome to the [Farm Fresh](https://tramompaline.github.io/farm-fresh/signup.html) website! This site is for a local farmers market where customers can purchase a wide variety of locally grown fresh farm products directly from farmers themselves. The website features a welcoming home page, testimonials from customers and farmers about the value of the farmers market and a sign-up form for users to join the Farm Fresh community and keep up to date with news and events.
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Responsive Design: The website is fully responsive and adjusts seamlessly to different screen sizes and devices.
 
-## Codeanywhere Reminders
+Home Page: A visually appealing home pagewith a background image and welcoming introductory text.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Testimonials: User testimonials displayed vertically with a consistent design.
 
-`python3 -m http.server`
+Sign-Up Form: A form where users can sign up to join the Farm Fresh community, with fields for name, email, and a join button.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Technologies Used
 
-`http_server`
+HTML: For the basic structure of the website.
+CSS: For styling the website and ensuring a responsive design.
+JavaScript: For any interactive elements and form validation.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+We hope you enjoy using the Farm Fresh website! If you have any questions or feedback, please don't hesitate to reach out.
