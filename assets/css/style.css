@@ -356,6 +356,7 @@ footer {
 
 #signup-form {
     font-size: 150%;
+    height: fit-content;
 }
 
 }
