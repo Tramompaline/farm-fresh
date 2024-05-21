@@ -91,9 +91,11 @@ main {
 
 /* Hero Section */
 #hero {
-    height: fit-content;
+    background-image: url("../images/pexels-wendywei-1656663.jpg");
+    background-size: cover;
     width: 100%;
-    background: url(../images/pexels-wendywei-1656663.jpg) no-repeat center center / cover;
+    height: fit-content;
+    flex-grow: 1;
     margin-top: 40px;
 }
 
@@ -124,10 +126,12 @@ main {
 
 /* Testimonials */
 #testimonials {
-    height: fit-content;
+    background-image: url("../images/pexels-wendywei-1656663.jpg");
+    background-size: cover;
     width: 100%;
-    background: url(../images/pexels-wendywei-1656663.jpg) no-repeat center center / cover;
+    height: fit-content;
     margin-top: 40px;
+    flex-grow: 1;
 }
 
 #testimonials-content {
@@ -138,7 +142,6 @@ main {
     color: white;
     font-size: 120%;
     max-width: 800px; 
-    box-sizing: border-box;
     justify-content: center;
     align-content: center;
 }   
@@ -346,14 +349,15 @@ footer {
         font-size: 170%;
 }
 
-#testimonials-content {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 20px;
-    margin-top: 40px;
-    border-radius: 20px;
-    color: white;
-    font-size: 170%;
-    max-width: 1300px; 
-    width: 100%;
+     #testimonials-content {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        margin: 20px;
+        margin-top: 40px;
+        border-radius: 20px;
+        color: white;
+        font-size: 170%;
+        max-width: 1300px; 
+        width: 100%;
 }   
+}
