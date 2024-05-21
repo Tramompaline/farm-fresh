@@ -152,7 +152,10 @@ main {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 #signup-form {
@@ -164,7 +167,35 @@ main {
     font-size: 150%;
     text-align: center;
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
   }
+
+  #signup-form label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+#signup-form .text-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 3px solid #736f6f;
+    border-radius: 15px;
+}
+ 
+#signup-form .join-button {
+    margin-top: 1rem;
+    background-color: goldenrod;
+    padding: 0.75rem;
+    border-radius: 15px;
+    font-size: 90%;
+    cursor: pointer;
+  }
+
+  #signup-form .join-button:hover {
+    background-color: #e8cb65;
+}
 
 /* Footer */
 footer {
@@ -257,8 +288,9 @@ footer {
     }
 
     #signup-form {
-    margin-left: 25%;
     margin-top: 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Media query: laptops and destops (992px and up) */
@@ -322,12 +354,16 @@ footer {
     box-sizing: border-box
 }   
 
+#signup-form {
+    font-size: 150%;
+}
+
 }
 
 @media screen and (min-width: 1200px) {
     #signup-form {
-        margin-left: 30%;
         margin-top: 250px;
+        font-size: 170%;
     }
 
     #cover-text {
