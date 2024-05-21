@@ -104,6 +104,7 @@ main {
 }
 
 #cover-text {
+    color: white;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     margin: 20px;
@@ -113,7 +114,7 @@ main {
     align-content: center;
 }
 
-#cover-text > h2 {
+#cover-text > h2, h3 {
     color: white !important;
     margin-top: 20px;
 }
@@ -270,6 +271,7 @@ footer {
     }
 
     #cover-text {
+        color: white;
         margin-top: 90px;
         width: 100%;
         max-width: 75%;
