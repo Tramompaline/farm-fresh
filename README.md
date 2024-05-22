@@ -84,7 +84,7 @@ Code for signup form inspired by Code Institute Love Running project.
 
 Background image across all pages from pexels.com
 
-Favicon from favicon generator website favicon.io
+Favicon from favicon generator website favicon.iogit
 
 
 
