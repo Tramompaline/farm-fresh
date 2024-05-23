@@ -82,6 +82,10 @@ nav {
     font-size: 2rem;
 }
 
+.nav-toggle-icon {
+    color: goldenrod;
+}
+
 /* Main Content */
 main {
     /* Force main element to take up surplus space and push footer down */
